@@ -1,5 +1,8 @@
 #script for scraping from RealClearPolitics
 
+#TODO: Add alert messaging code, and execute the script on a server that runs continuously. For example, I could
+#run this on my RaspberryPi or on a server on the cloud.
+
 #gems required for this to work
 require 'nokogiri'
 require 'httparty'
